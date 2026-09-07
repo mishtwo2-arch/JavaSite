@@ -15,7 +15,9 @@ async function Data() {
         })
     });
 
-    console.log(await response.text());
+    const data = await response.json();
+
+    document.getElementById("message").textContent = data.message;
 }
 
 document.getElementById("button").onclick = Data;
