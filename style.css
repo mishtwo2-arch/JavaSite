@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    color: powderblue;
+    background-color: goldenrod;
+}
+
+label {
+    display: inline-block;
+}
+
+.from {
+    font-size: 300%;
+}
+.from input{
+    width:16rem;
+    height:1.7rem;
+}
+
+button {
+    font-size: 3rem;
+}
