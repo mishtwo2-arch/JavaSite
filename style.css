@@ -1,7 +1,7 @@
 body {
     text-align: center;
-    color: powderblue;
-    background-color: goldenrod;
+    color: orchid;
+    background-image: url("fon.jpg");
 }
 
 label {

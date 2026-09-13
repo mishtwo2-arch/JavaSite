@@ -2,7 +2,7 @@ async function Data() {
     const login = document.getElementById("login").value;
     const password = document.getElementById("password").value;
 
-    const response = await fetch("http://localhost:25565/api/test", {
+    const response = await fetch("/api/test", {
         method: "POST",
 
         headers: {
@@ -16,6 +16,14 @@ async function Data() {
     });
 
     const data = await response.json();
+
+
+    if (data.success) {
+        window.location.href = "content.html";
+    } else {
+        document.getElementById("message").textContent = data.message;
+    }
+
 
     document.getElementById("message").textContent = data.message;
 }

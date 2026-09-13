@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    color: deeppink;
+    background-image: url("pexels-olia-danilevich-8127301.jpg");
+    background-size: cover ;
+}
+
+label {
+    display: inline-block;
+}
+
+.panel {
+    background: rgba(0, 0, 0, 0.5) ;
+    border-radius: 10rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.from {
+    font-size: 300%;
+}
